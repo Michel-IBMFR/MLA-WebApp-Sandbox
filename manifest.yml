@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MLA-WebApp-Sandbox
+  host: MLA-WebApp-Sandbox
+  disk_quota: 1024M
+  services:
+  - MLA-WebApp-Sandbox-cloudantNoSQLDB
